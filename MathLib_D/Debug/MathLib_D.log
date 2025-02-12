@@ -1,0 +1,17 @@
+﻿  MathSrc.cpp
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(4): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(8): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(13): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(18): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  test.cpp
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(4): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(8): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(13): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(18): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+test.obj : error LNK2005: "float * __cdecl getPointer_NormalizeVector_2Dimensional(int,int)" (?getPointer_NormalizeVector_2Dimensional@@YAPAMHH@Z) already defined in MathSrc.obj
+test.obj : error LNK2005: "float __cdecl normalize_Vector_XAxis(int,int)" (?normalize_Vector_XAxis@@YAMHH@Z) already defined in MathSrc.obj
+test.obj : error LNK2005: "float __cdecl normalize_Vector_YAxis(int,int)" (?normalize_Vector_YAxis@@YAMHH@Z) already defined in MathSrc.obj
+test.obj : error LNK2005: "int __cdecl vector_magnitude_2D(int,int)" (?vector_magnitude_2D@@YAHHH@Z) already defined in MathSrc.obj
+test.obj : error LNK2005: "int __cdecl vector_magnitude_3D(int,int,int)" (?vector_magnitude_3D@@YAHHHH@Z) already defined in MathSrc.obj
+C:\Users\usuario\source\repos\MathLib_D\Debug\MathLib_D.exe : fatal error LNK1169: one or more multiply defined symbols found

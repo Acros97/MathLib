@@ -1,0 +1,9 @@
+﻿  MathSrc.cpp
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(19): error C2059: syntax error: '='
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(19): error C2059: syntax error: ')'
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(24): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(28): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(32): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\usuario\source\repos\mathlib_d\mathlib_d\mathsrc.cpp(37): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  test.cpp
+  Generating Code...
